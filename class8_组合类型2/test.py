@@ -19,4 +19,19 @@ dic2 = dict([[1,2],[2,23],[3,2322]])
 print(dic2[2])
 
 # 字符串一定要用'', 防止键和变量无法区分
-dic3 = dict("sda"='s',Jusn='s')
+dic3= {1003:{"张三":"111","身份证":{"id":"sdad","dsad":"dsads"}}}
+
+
+# 增
+dic3["mar"] = 1;
+print(dic3)
+
+# 删
+del dic3["mar"]
+
+# 删
+dic3.clear()
+
+#
+dic.str()
+len(dic)
